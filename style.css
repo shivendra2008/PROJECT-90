@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+.navbar {
+    background:#6ab446;
+}
+
+.nav-link,
+.navbar-brand {
+    color: rgb(172, 81, 81);
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+body
+{
+	background-image: url("pexels-photo-1318579.jpeg");
+	background-size: cover;
+}
+
+
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
